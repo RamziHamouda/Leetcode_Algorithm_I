@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leetcode_Algorithm_I
+namespace Leetcode_Algorithm_I.Easy
 {
     public class ListNode
     {
@@ -29,7 +29,7 @@ namespace Leetcode_Algorithm_I
             }
 
             node = new ListNode(head.val, head.next);
-            for (var i = 1; i <= length/2; i ++)
+            for (var i = 1; i <= length / 2; i++)
             {
                 node = node.next;
             }
@@ -45,7 +45,7 @@ namespace Leetcode_Algorithm_I
             var listNode4 = new ListNode(2, listNode3);
             var listNode5 = new ListNode(1, listNode4);
 
-            var result = ListNode.MiddleNode(listNode5);
+            var result = MiddleNode(listNode5);
 
             Console.WriteLine("Result = {0}", result.val);
         }

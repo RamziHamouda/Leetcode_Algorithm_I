@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leetcode_Algorithm_I
+namespace Leetcode_Algorithm_I.Easy
 {
     internal class ReverseWordsInAString3
     {

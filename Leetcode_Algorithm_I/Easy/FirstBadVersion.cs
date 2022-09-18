@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leetcode_Algorithm_I
+namespace Leetcode_Algorithm_I.Easy
 {
     public class FirstBadVersion
     {
         private int badVersion;
         public FirstBadVersion()
         {
-            
+
         }
 
         private bool IsBadVersion(int n)
@@ -28,7 +28,7 @@ namespace Leetcode_Algorithm_I
 
             List<int> arr = new();
 
-            for (int i = 1; i < n+1; i++)
+            for (int i = 1; i < n + 1; i++)
             {
                 arr.Add(i);
             }
@@ -70,7 +70,7 @@ namespace Leetcode_Algorithm_I
 
         private int BadVersionHelp(List<int> nums)
         {
-            while(nums.Count > 1)
+            while (nums.Count > 1)
             {
                 // middle even [1,2,3,4] : 4/2 - 1 + 0 = 1
                 // middle uneven [1,2,3,4,5] : 5/2 - 1 + 1= 2

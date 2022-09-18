@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leetcode_Algorithm_I
+namespace Leetcode_Algorithm_I.Easy
 {
     internal class SearchInsertPosition
     {
         public int SearchInsert(int[] nums, int target)
         {
             //int insertIndex = -1;
-            for(int i= 0; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] == target || nums[i] > target) return i;
             }
