@@ -6,14 +6,8 @@ using System.Linq;
 
 Console.WriteLine("Hello, World!");
 
-var result = MergeTwoSortedLists.MergeTwoSortedLists_Method(null, null);
+var result = SingleNumberClass.SingleNumber(new int[3] { 2, 2, 1 });
 
-while(result != null)
-{
-    Console.WriteLine(result.val);
-    result = result.next;
-}
-
-Console.WriteLine("Result = /n");
+Console.WriteLine("Result = {0}", result);
 
 
