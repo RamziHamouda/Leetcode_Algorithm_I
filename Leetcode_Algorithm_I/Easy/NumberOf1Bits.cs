@@ -13,7 +13,6 @@ namespace Leetcode_Algorithm_I.Easy
         {
 
             var myBitArray = new BitArray(BitConverter.GetBytes(n));
-
             int result = 0;
             foreach (bool element in myBitArray)
             {

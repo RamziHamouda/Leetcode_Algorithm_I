@@ -6,7 +6,7 @@ using System.Linq;
 
 Console.WriteLine("Hello, World!");
 
-var result = SingleNumberClass.SingleNumber(new int[3] { 2, 2, 1 });
+var result = ReverseBitsClass.reverseBits(436633333);
 
 Console.WriteLine("Result = {0}", result);
 
